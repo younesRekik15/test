@@ -36,7 +36,7 @@ function changeDirection(e){
 
 function theGame(){
     yummy = false;
-    // Checking if the game ended or not
+    // Checking the end of the game
     if(gameOver){
         location.reload();
     }
